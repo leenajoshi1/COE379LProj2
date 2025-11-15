@@ -1,0 +1,6 @@
+services:
+  inference:
+    build: .
+    image: leenajoshi/harvey-inference:latest
+    ports:
+      - "5000:5000"
