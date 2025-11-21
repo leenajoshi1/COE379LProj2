@@ -13,7 +13,7 @@ saved_models/best_model.keras	Persisted trained model used for deployment
 
 Run inside the folder containing the Dockerfile:
 
-docker build -t leenajoshi1/coe379l-proj2:latest .
+docker build -t leenajoshi/coe379l-proj2:latest .
 
 
 This creates an x86-compatible image (required by course instructions).
@@ -22,8 +22,8 @@ This creates an x86-compatible image (required by course instructions).
 
 Tag and push:
 
-docker tag leenajoshi1/coe379l-proj2:latest leenajoshi1/coe379l-proj2:latest
-docker push leenajoshi1/coe379l-proj2:latest
+docker tag leenajoshi/coe379l-proj2:latest leenajoshi1/coe379l-proj2:latest
+docker push leenajoshi/coe379l-proj2:latest
 
 
 You must be logged in:
