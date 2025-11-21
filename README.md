@@ -22,7 +22,7 @@ This creates an x86-compatible image (required by course instructions).
 
 Tag and push:
 
-docker tag leenajoshi/coe379l-proj2:latest leenajoshi1/coe379l-proj2:latest
+docker tag leenajoshi/coe379l-proj2:latest 
 docker push leenajoshi/coe379l-proj2:latest
 
 
